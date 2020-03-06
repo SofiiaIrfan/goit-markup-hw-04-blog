@@ -1,0 +1,148 @@
+
+  body {
+    background-color: #ffffff;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  /*Container*/
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav {
+    padding-top: 44px;
+    padding-bottom: 72px;
+  }
+  
+  .site-nav {
+    display: flex;
+    padding-top: 0x;
+    padding-bottom: 0x;
+    justify-content: center;
+  }
+  
+  .site-nav .link {
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: #7bd2f9;
+  }
+  
+  /*Section*/
+  .hero {
+    margin-top: 0;
+    padding-bottom: 70px;
+  }
+  
+  .feature-list-item img {
+    margin-bottom: 32px;
+  }
+  
+  .hero .menu-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+   
+  }
+  
+  .hero .title {
+    font-size: 30px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 38px;
+    margin-top: 0;
+  }
+  .classification {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: var(--main-font);
+    margin-bottom: 0px;
+  }
+  
+  .hero .description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 54px;
+  }
+  
+  .feature-list-item {
+    flex-basis: calc(50% - 30px);
+    flex-grow: 0;
+    margin-bottom: 130px;
+      }
+  
+  .feature-list-item:nth-child(2n+1) {
+    margin-right: 60px;
+  }
+  .feature-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: thin solid #626262;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    min-width: 164px;
+    min-height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #7bd2f9
+  }
